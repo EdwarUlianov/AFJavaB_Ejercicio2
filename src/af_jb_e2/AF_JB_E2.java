@@ -40,7 +40,7 @@ public class AF_JB_E2 {
        //Compruebo si es menor de edad y se lo comunico usando para ello el
        //condicional if
        if (n<18){
-           System.out.println("Eres menos de edad");
+           System.out.println("Eres menor de edad");
        }
        else {
            System.out.println("Es usted mayor de edad");
