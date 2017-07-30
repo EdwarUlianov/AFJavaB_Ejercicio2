@@ -57,6 +57,7 @@ public class AF_JB_E2 {
         
         //Lamo al método MostrarNumero
         MostrarNumero();
+        //LLamo al método Edad
         Edad();
 
     }
