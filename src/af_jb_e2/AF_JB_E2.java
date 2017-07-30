@@ -21,7 +21,7 @@ public class AF_JB_E2 {
         
         //Creo una rutina con for que inicializa i a cero y lo va incrementando
         //hasta llegar a n
-        for (i=0; i<n; i++){
+        for (i=0; i<=n; i++){
             System.out.println(i);
         }
                             
@@ -29,6 +29,9 @@ public class AF_JB_E2 {
     }
 
     public static void main(String[] args) {
+        
+        //Lamo al método MostrarNumero
+        MostrarNumero();
 
 
     }
