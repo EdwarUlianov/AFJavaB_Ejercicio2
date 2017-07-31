@@ -50,16 +50,41 @@ public class AF_JB_E2 {
     }
     
                             
-        
-    
+      
 
     public static void main(String[] args) {
         
-        //Lamo al método MostrarNumero
-        MostrarNumero();
-        //LLamo al método Edad
-        Edad();
-
+        Scanner leer = new Scanner(System.in);
+        //Declaro una variable tipo entero para almacenar la opción de menú
+        //La inicializo a 0 para que no falle el while
+        int n = 0;
+        
+        //Mediante un while, hago que el menú vuelva a aparecer hasta que se
+        //se elija la opción 3, salida.
+        while (n!=3){
+        //Menú para el usuario
+        System.out.println("Elija una opción:");
+        System.out.println("1. Mostrar numeros");
+        System.out.println("2. Edad");
+        System.out.println("3. Salir");
+             
+        n = leer.nextInt();
+        
+                
+        //Mediante un swithc hago un selector para el menú, que ejecutará un 
+        //método según la elección del usuario
+            switch (n){
+        
+                case 1:
+                    MostrarNumero();
+                    break;
+            
+                case 2:
+                    Edad();
+                    break;
+        
+            }
+        }
     }
     
 }
