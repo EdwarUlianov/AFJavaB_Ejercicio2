@@ -71,7 +71,7 @@ public class AF_JB_E2 {
         n = leer.nextInt();
         
                 
-        //Mediante un swithc hago un selector para el menú, que ejecutará un 
+        //Mediante un switch hago un selector para el menú, que ejecutará un 
         //método según la elección del usuario
             switch (n){
         
